@@ -1,5 +1,8 @@
 project:
   type: website
+  resources:
+    - data/2026_jids/*
+    - R/2026_jids/*
 
 website:
   title: "ISAAC"
@@ -13,6 +16,8 @@ website:
         text: Home
       - href: data.qmd
         text: Data
+      - href: codebook.qmd
+        text: Codebook
       - href: analysis.qmd
         text: Analysis
       - href: about.qmd
