@@ -31,6 +31,8 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      dark: solar
+      light: cosmo
     css: styles.css
     toc: true
