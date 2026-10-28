@@ -4,8 +4,8 @@ project:
 website:
   title: "ISAAC"
   description: "Data and analysis companion site"
-  site-url: https://kevinnavarreteparra.github.io/isaac_data/
-  repo-url: https://github.com/KevinNavarreteParra/isaac_data
+  site-url: https://isaac-dataset.github.io/
+  repo-url: https://github.com/isaac-dataset/isaac-dataset.github.io
   repo-actions: [edit, issue]
   navbar:
     left:
