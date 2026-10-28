@@ -1,26 +1,124 @@
 ---
 title: "Analysis"
 engine: knitr
+execute:
+  message: false
+  warning: false
+format:
+  html:
+    code-fold: true
+    code-summary: "Code"
+    df-print: kable
 ---
 
-This is an example of how you'd add a page to the site with some inline code. Notice that the _quarto.yml file needs to be updated to reflect this page's existence.
+## 2026 JIDS article
 
-## Example
+### Table 1
 
 ```{r}
-#| label: load-data
-#| message: false
-library(readr)
-library(dplyr)
-library(ggplot2)
-
-d <- read_csv("data/example_data.csv", show_col_types = FALSE)
+#| file: R/2026_jids/table_1.R
 ```
 
+### Figure 1
+
 ```{r}
-#| label: fig-example
-#| fig-cap: "Placeholder chart — replace with a real figure once there's real data."
-ggplot(d, aes(x = id, y = value)) +
-  geom_col() +
-  theme_minimal()
+#| file: R/2026_jids/figure_01.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 2
+
+```{r}
+#| file: R/2026_jids/figure_02.R
+#| fig-width: 7
+#| fig-height: 4.5
+```
+
+### Figure 3
+
+```{r}
+#| file: R/2026_jids/figure_03.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 4
+
+```{r}
+#| file: R/2026_jids/figure_04.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 5
+
+```{r}
+#| file: R/2026_jids/figure_05.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 7
+
+```{r}
+#| file: R/2026_jids/figure_07.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 8
+
+```{r}
+#| file: R/2026_jids/figure_08.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 9
+
+```{r}
+#| file: R/2026_jids/figure_09.R
+#| fig-width: 7
+#| fig-height: 4.5
+```
+
+### Figure 10
+
+```{r}
+#| file: R/2026_jids/figure_10.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 11
+
+```{r}
+#| file: R/2026_jids/figure_11.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 12
+
+```{r}
+#| file: R/2026_jids/figure_12.R
+#| fig-width: 7
+#| fig-height: 4.9
+```
+
+### Figure 13
+
+```{r}
+#| file: R/2026_jids/figure_13.R
+#| fig-width: 7
+#| fig-height: 4.5
+```
+
+### Figure 14
+
+```{r}
+#| file: R/2026_jids/figure_14.R
+#| fig-width: 7
+#| fig-height: 4.9
 ```

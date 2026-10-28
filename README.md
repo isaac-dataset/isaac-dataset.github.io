@@ -2,6 +2,10 @@
 
 **Live site:** https://isaac-dataset.github.io/
 
+## Replication materials
+
+Each paper gets its own folder, named `<year>_<journal>`, under both `data/` and `R/` (e.g. `data/2026_jids/`, `R/2026_jids/`). Scripts run from the repository root and source their folder's `setup.R`.
+
 ## R package management (renv)
 
 Packages are pinned in `renv.lock`. Github restores from it automatically, no need to touch it unless you add a package.

@@ -1,0 +1,54 @@
+---
+title: "Codebook"
+---
+
+## 2026 JIDS article
+
+### `isaac_cases`
+
+One row per arbitration.
+
+| Variable | Description | Type |
+|---|---|---|
+| `case_id` | ISAAC case identifier | integer |
+| `case_name` | Short case name, from UNCTAD | string |
+| `year_init` | Year the arbitration was initiated | integer |
+| `year_incid` | Year of the first alleged treaty breach | integer |
+| `sector` | Economic sector of the investment: Primary, Secondary, or Tertiary | string |
+| `outcome` | Case outcome, original UNCTAD coding | string |
+| `outcome_2023` | Case outcome, UNCTAD 31 December 2023 release | string |
+| `prop_award` | Damages awarded divided by damages claimed, in USD | numeric |
+| `domestic_suit` | 1 if the investor pursued domestic litigation before ISDS | 0/1 |
+| `indir_exp_alleged` | 1 if the investor alleged indirect expropriation | 0/1 |
+| `gdp_capita` | Respondent GDP per capita in the incident year, USD | numeric |
+| `v2x_rule` | Respondent V-Dem rule of law index in the incident year | numeric |
+| `no_public_docs` | 1 if no case documents are publicly available | 0/1 |
+
+### `isaac_redactions`
+
+One row per arbitration with processable public documents.
+
+| Variable | Description | Type |
+|---|---|---|
+| `arbitration_id` | Redaction pipeline case identifier | string |
+| `case_id` | ISAAC case identifier; blank if unmatched | integer |
+| `year` | Year the arbitration was initiated | integer |
+| `mean_coverage_percent` | Mean share of document text redacted, 0 to 100 | numeric |
+| `total_inline` | Redactions of a word or short phrase | integer |
+| `total_partial_line` | Redactions of part of a line | integer |
+| `total_full_line` | Redactions of a full line | integer |
+| `total_block` | Redactions of a paragraph or larger | integer |
+
+### `unctad_awards_2023`
+
+One row per case in UNCTAD's Investment Dispute Settlement Navigator, 31 December 2023 release.
+
+| Variable | Description | Type |
+|---|---|---|
+| `unctad_no` | UNCTAD case number | integer |
+| `case_name` | Short case name | string |
+| `year_init` | Year the arbitration was initiated | integer |
+| `outcome` | Case outcome | string |
+| `claims` | Damages claimed, USD millions | numeric |
+| `awards` | Damages awarded, USD millions | numeric |
+| `prop_award` | `awards` divided by `claims` | numeric |

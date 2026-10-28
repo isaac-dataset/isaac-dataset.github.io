@@ -2,29 +2,38 @@
 title: "Data"
 ---
 
-## Datasets
+## 2026 JIDS article
 
-The table below lists the data files available in this repository. Click a file name to download it directly.
+The data and R scripts below reproduce every table, figure, and in-text statistic in the article. Variables are described in the [codebook](codebook.qmd).
 
-| File | Description | Format | Download |
+| Dataset | Unit | Rows | Download |
 |---|---|---|---|
-| `example_data.csv` | Placeholder example file — replace this row (and the file in `data/`) with your real data. | CSV | [download](data/example_data.csv) |
+| `isaac_cases` | Arbitration | 1,229 | [CSV](data/2026_jids/isaac_cases.csv) · [Stata](data/2026_jids/isaac_cases.dta) · [R](data/2026_jids/isaac_cases.rds) · [Excel](data/2026_jids/isaac_cases.xlsx) |
+| `isaac_redactions` | Arbitration with public documents | 874 | [CSV](data/2026_jids/isaac_redactions.csv) · [Stata](data/2026_jids/isaac_redactions.dta) · [R](data/2026_jids/isaac_redactions.rds) · [Excel](data/2026_jids/isaac_redactions.xlsx) |
+| `unctad_awards_2023` | UNCTAD case, 31 December 2023 release | 1,332 | [CSV](data/2026_jids/unctad_awards_2023.csv) · [Stata](data/2026_jids/unctad_awards_2023.dta) · [R](data/2026_jids/unctad_awards_2023.rds) · [Excel](data/2026_jids/unctad_awards_2023.xlsx) |
 
-**To add a new dataset:**
+### Scripts
 
-1. Put the file in the `data/` folder in the repository.
-2. Add a row to the table above with its name, a short description, and a link written as `[download](data/your_file.csv)`.
-3. Commit (or use the **Edit this page** link at the bottom of this page) — the site rebuilds and republishes itself automatically.
+Each script sources [`setup.R`](R/2026_jids/setup.R) and runs from the root of the [repository](https://github.com/isaac-dataset/isaac-dataset.github.io/archive/refs/heads/main.zip).
 
-## Data dictionary
-
-Describe each variable in your dataset(s) here so visitors know what they're looking at.
-
-| Variable | Description | Type |
-|---|---|---|
-| `id` | Placeholder — describe this variable | integer |
-| `value` | Placeholder — describe this variable | numeric |
+| Script | Reproduces |
+|---|---|
+| [`table_1.R`](R/2026_jids/table_1.R) | Table 1 |
+| [`figure_01.R`](R/2026_jids/figure_01.R) | Figure 1 |
+| [`figure_02.R`](R/2026_jids/figure_02.R) | Figure 2 |
+| [`figure_03.R`](R/2026_jids/figure_03.R) | Figure 3 |
+| [`figure_04.R`](R/2026_jids/figure_04.R) | Figure 4 |
+| [`figure_05.R`](R/2026_jids/figure_05.R) | Figure 5 |
+| [`figure_07.R`](R/2026_jids/figure_07.R) | Figure 7 |
+| [`figure_08.R`](R/2026_jids/figure_08.R) | Figure 8 |
+| [`figure_09.R`](R/2026_jids/figure_09.R) | Figure 9 |
+| [`figure_10.R`](R/2026_jids/figure_10.R) | Figure 10 |
+| [`figure_11.R`](R/2026_jids/figure_11.R) | Figure 11 |
+| [`figure_12.R`](R/2026_jids/figure_12.R) | Figure 12 |
+| [`figure_13.R`](R/2026_jids/figure_13.R) | Figure 13 |
+| [`figure_14.R`](R/2026_jids/figure_14.R) | Figure 14 |
+| [`in_text.R`](R/2026_jids/in_text.R) | In-text statistics |
 
 ## Citation
 
-If you use this data, please cite the paper — see [About](about.qmd) for the citation.
+If you use this data, please cite the paper. See [About](about.qmd) for the citation.
