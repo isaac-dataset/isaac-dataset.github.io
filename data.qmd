@@ -8,6 +8,8 @@ The data and R scripts below reproduce every table, figure, and in-text statisti
 
 ### 2026 JIDS data
 
+Archived on Harvard Dataverse: [doi:10.7910/DVN/EGOICA](https://doi.org/10.7910/DVN/EGOICA)
+
 | Dataset | Unit | Rows | Download |
 |---|---|---|---|
 | `isaac_cases` | Arbitration | 1,229 | [CSV](data/2026_jids/isaac_cases.csv) · [Stata](data/2026_jids/isaac_cases.dta) · [R](data/2026_jids/isaac_cases.rds) · [Excel](data/2026_jids/isaac_cases.xlsx) |
