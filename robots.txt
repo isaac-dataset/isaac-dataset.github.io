@@ -1,1 +1,1 @@
-Sitemap: https://kevinnavarreteparra.github.io/isaac_data/sitemap.xml
+Sitemap: https://isaac-dataset.github.io/sitemap.xml

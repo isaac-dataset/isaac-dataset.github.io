@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kevinnavarreteparra.github.io/isaac_data/about.html</loc>
-    <lastmod>2026-09-17T22:49:33.089Z</lastmod>
+    <loc>https://isaac-dataset.github.io/index.html</loc>
+    <lastmod>2026-10-28T13:20:26.176Z</lastmod>
   </url>
   <url>
-    <loc>https://kevinnavarreteparra.github.io/isaac_data/analysis.html</loc>
-    <lastmod>2026-09-17T22:49:33.089Z</lastmod>
+    <loc>https://isaac-dataset.github.io/about.html</loc>
+    <lastmod>2026-10-28T13:20:26.176Z</lastmod>
   </url>
   <url>
-    <loc>https://kevinnavarreteparra.github.io/isaac_data/index.html</loc>
-    <lastmod>2026-09-17T22:49:33.089Z</lastmod>
+    <loc>https://isaac-dataset.github.io/data.html</loc>
+    <lastmod>2026-10-28T13:20:26.176Z</lastmod>
   </url>
   <url>
-    <loc>https://kevinnavarreteparra.github.io/isaac_data/data.html</loc>
-    <lastmod>2026-09-17T22:49:33.089Z</lastmod>
+    <loc>https://isaac-dataset.github.io/analysis.html</loc>
+    <lastmod>2026-10-28T13:20:26.176Z</lastmod>
   </url>
 </urlset>
