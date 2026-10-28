@@ -104,6 +104,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./codebook.html"> 
+<span class="menu-text">Codebook</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./analysis.html"> 
 <span class="menu-text">Analysis</span></a>
   </li>  
@@ -114,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/KevinNavarreteParra/isaac_data"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
+    <a class="nav-link" href="https://github.com/isaac-dataset/isaac-dataset.github.io"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -134,8 +138,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#datasets" id="toc-datasets" class="nav-link active" data-scroll-target="#datasets">Datasets</a></li>
-  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data dictionary</a></li>
+  <li><a href="#jids-article" id="toc-jids-article" class="nav-link active" data-scroll-target="#jids-article">2026 JIDS article</a>
+  <ul class="collapse">
+  <li><a href="#jids-data" id="toc-jids-data" class="nav-link" data-scroll-target="#jids-data">2026 JIDS data</a></li>
+  <li><a href="#jids-scripts" id="toc-jids-scripts" class="nav-link" data-scroll-target="#jids-scripts">2026 JIDS scripts</a></li>
+  </ul></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/isaac-dataset/isaac-dataset.github.io/edit/main/data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/isaac-dataset/isaac-dataset.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -162,62 +169,120 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="datasets" class="level2">
-<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
-<p>The table below lists the data files available in this repository. Click a file name to download it directly.</p>
+<section id="jids-article" class="level2">
+<h2 class="anchored" data-anchor-id="jids-article">2026 JIDS article</h2>
+<p>The data and R scripts below reproduce every table, figure, and in-text statistic in the article. Variables are described in the <a href="./codebook.html">codebook</a>.</p>
+<section id="jids-data" class="level3">
+<h3 class="anchored" data-anchor-id="jids-data">2026 JIDS data</h3>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>File</th>
-<th>Description</th>
-<th>Format</th>
+<th>Dataset</th>
+<th>Unit</th>
+<th>Rows</th>
 <th>Download</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>example_data.csv</code></td>
-<td>Placeholder example file — replace this row (and the file in <code>data/</code>) with your real data.</td>
-<td>CSV</td>
-<td><a href="data/example_data.csv">download</a></td>
+<td><code>isaac_cases</code></td>
+<td>Arbitration</td>
+<td>1,229</td>
+<td><a href="data/2026_jids/isaac_cases.csv">CSV</a> · <a href="data/2026_jids/isaac_cases.dta">Stata</a> · <a href="data/2026_jids/isaac_cases.rds">R</a> · <a href="data/2026_jids/isaac_cases.xlsx">Excel</a></td>
+</tr>
+<tr class="even">
+<td><code>isaac_redactions</code></td>
+<td>Arbitration with public documents</td>
+<td>874</td>
+<td><a href="data/2026_jids/isaac_redactions.csv">CSV</a> · <a href="data/2026_jids/isaac_redactions.dta">Stata</a> · <a href="data/2026_jids/isaac_redactions.rds">R</a> · <a href="data/2026_jids/isaac_redactions.xlsx">Excel</a></td>
+</tr>
+<tr class="odd">
+<td><code>unctad_awards_2023</code></td>
+<td>UNCTAD case, 31 December 2023 release</td>
+<td>1,332</td>
+<td><a href="data/2026_jids/unctad_awards_2023.csv">CSV</a> · <a href="data/2026_jids/unctad_awards_2023.dta">Stata</a> · <a href="data/2026_jids/unctad_awards_2023.rds">R</a> · <a href="data/2026_jids/unctad_awards_2023.xlsx">Excel</a></td>
 </tr>
 </tbody>
 </table>
-<p><strong>To add a new dataset:</strong></p>
-<ol type="1">
-<li>Put the file in the <code>data/</code> folder in the repository.</li>
-<li>Add a row to the table above with its name, a short description, and a link written as <code>[download](data/your_file.csv)</code>.</li>
-<li>Commit (or use the <strong>Edit this page</strong> link at the bottom of this page) — the site rebuilds and republishes itself automatically.</li>
-</ol>
 </section>
-<section id="data-dictionary" class="level2">
-<h2 class="anchored" data-anchor-id="data-dictionary">Data dictionary</h2>
-<p>Describe each variable in your dataset(s) here so visitors know what they’re looking at.</p>
+<section id="jids-scripts" class="level3">
+<h3 class="anchored" data-anchor-id="jids-scripts">2026 JIDS scripts</h3>
+<p>Each script sources <a href="R/2026_jids/setup.R"><code>setup.R</code></a> and runs from the root of the <a href="https://github.com/isaac-dataset/isaac-dataset.github.io/archive/refs/heads/main.zip">repository</a>.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Variable</th>
-<th>Description</th>
-<th>Type</th>
+<th>Script</th>
+<th>Reproduces</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>id</code></td>
-<td>Placeholder — describe this variable</td>
-<td>integer</td>
+<td><a href="R/2026_jids/table_1.R"><code>table_1.R</code></a></td>
+<td>Table 1</td>
 </tr>
 <tr class="even">
-<td><code>value</code></td>
-<td>Placeholder — describe this variable</td>
-<td>numeric</td>
+<td><a href="R/2026_jids/figure_01.R"><code>figure_01.R</code></a></td>
+<td>Figure 1</td>
+</tr>
+<tr class="odd">
+<td><a href="R/2026_jids/figure_02.R"><code>figure_02.R</code></a></td>
+<td>Figure 2</td>
+</tr>
+<tr class="even">
+<td><a href="R/2026_jids/figure_03.R"><code>figure_03.R</code></a></td>
+<td>Figure 3</td>
+</tr>
+<tr class="odd">
+<td><a href="R/2026_jids/figure_04.R"><code>figure_04.R</code></a></td>
+<td>Figure 4</td>
+</tr>
+<tr class="even">
+<td><a href="R/2026_jids/figure_05.R"><code>figure_05.R</code></a></td>
+<td>Figure 5</td>
+</tr>
+<tr class="odd">
+<td><a href="R/2026_jids/figure_07.R"><code>figure_07.R</code></a></td>
+<td>Figure 7</td>
+</tr>
+<tr class="even">
+<td><a href="R/2026_jids/figure_08.R"><code>figure_08.R</code></a></td>
+<td>Figure 8</td>
+</tr>
+<tr class="odd">
+<td><a href="R/2026_jids/figure_09.R"><code>figure_09.R</code></a></td>
+<td>Figure 9</td>
+</tr>
+<tr class="even">
+<td><a href="R/2026_jids/figure_10.R"><code>figure_10.R</code></a></td>
+<td>Figure 10</td>
+</tr>
+<tr class="odd">
+<td><a href="R/2026_jids/figure_11.R"><code>figure_11.R</code></a></td>
+<td>Figure 11</td>
+</tr>
+<tr class="even">
+<td><a href="R/2026_jids/figure_12.R"><code>figure_12.R</code></a></td>
+<td>Figure 12</td>
+</tr>
+<tr class="odd">
+<td><a href="R/2026_jids/figure_13.R"><code>figure_13.R</code></a></td>
+<td>Figure 13</td>
+</tr>
+<tr class="even">
+<td><a href="R/2026_jids/figure_14.R"><code>figure_14.R</code></a></td>
+<td>Figure 14</td>
+</tr>
+<tr class="odd">
+<td><a href="R/2026_jids/in_text.R"><code>in_text.R</code></a></td>
+<td>In-text statistics</td>
 </tr>
 </tbody>
 </table>
 </section>
+</section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p>If you use this data, please cite the paper — see <a href="./about.html">About</a> for the citation.</p>
+<p>If you use this data, please cite the paper. See <a href="./about.html">About</a> for the citation.</p>
 
 
 </section>

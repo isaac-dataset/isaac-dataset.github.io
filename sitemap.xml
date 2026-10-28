@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://isaac-dataset.github.io/index.html</loc>
-    <lastmod>2026-10-28T13:20:26.176Z</lastmod>
+    <lastmod>2026-10-28T14:20:59.000Z</lastmod>
   </url>
   <url>
     <loc>https://isaac-dataset.github.io/about.html</loc>
-    <lastmod>2026-10-28T13:20:26.176Z</lastmod>
+    <lastmod>2026-10-28T14:20:58.996Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isaac-dataset.github.io/codebook.html</loc>
+    <lastmod>2026-10-28T14:20:58.996Z</lastmod>
   </url>
   <url>
     <loc>https://isaac-dataset.github.io/data.html</loc>
-    <lastmod>2026-10-28T13:20:26.176Z</lastmod>
+    <lastmod>2026-10-28T14:20:58.996Z</lastmod>
   </url>
   <url>
     <loc>https://isaac-dataset.github.io/analysis.html</loc>
-    <lastmod>2026-10-28T13:20:26.176Z</lastmod>
+    <lastmod>2026-10-28T14:20:58.996Z</lastmod>
   </url>
 </urlset>
