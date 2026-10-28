@@ -4,7 +4,7 @@ title: "ISAAC"
 
 ## About this project
 
-This site hosts data and analysis for **[paper title placeholder]**. It provides:
+This site hosts the ISAAC data along with some analysis. It provides:
 
 - **[Data](data.qmd)** — browse and download the data directly.
 - **[Analysis](analysis.qmd)** — a short, static write-up of some patterns in the data.
