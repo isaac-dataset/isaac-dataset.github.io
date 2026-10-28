@@ -19,7 +19,7 @@ website:
         text: About
     right:
       - icon: github
-        href: https://github.com/KevinNavarreteParra/isaac_data
+        href: https://github.com/isaac-dataset/isaac-dataset.github.io
         aria-label: GitHub repository
   page-footer:
     center: "Data and text on this site are licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Built with [Quarto](https://quarto.org)."

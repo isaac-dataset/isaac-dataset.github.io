@@ -1,6 +1,6 @@
 # ISAAC data site
 
-**Live site:** https://kevinnavarreteparra.github.io/isaac_data/
+**Live site:** https://isaac-dataset.github.io/
 
 ## R package management (renv)
 
