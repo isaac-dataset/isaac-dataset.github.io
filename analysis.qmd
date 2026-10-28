@@ -13,13 +13,13 @@ format:
 
 ## 2026 JIDS article
 
-### Table 1
+### Table 1. ISAAC data summary and coverage
 
 ```{r}
 #| file: R/2026_jids/table_1.R
 ```
 
-### Figure 1
+### Figure 1. Time to file for ISDS cases, 1987 – 2022
 
 ```{r}
 #| file: R/2026_jids/figure_01.R
@@ -27,7 +27,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 2
+### Figure 2. Variation in time to file by year, 1992 to 2022
 
 ```{r}
 #| file: R/2026_jids/figure_02.R
@@ -35,7 +35,7 @@ format:
 #| fig-height: 4.5
 ```
 
-### Figure 3
+### Figure 3. Variation in time to file by respondent country and case characteristics
 
 ```{r}
 #| file: R/2026_jids/figure_03.R
@@ -43,7 +43,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 4
+### Figure 4. Difference in Time to file by whether Investors pursued domestic litigation prior to escalation, 1987 to 2022
 
 ```{r}
 #| file: R/2026_jids/figure_04.R
@@ -51,7 +51,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 5
+### Figure 5. Variation in likelihood of alternative dispute resolution by respondent country and case characteristics
 
 ```{r}
 #| file: R/2026_jids/figure_05.R
@@ -59,7 +59,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 7
+### Figure 7. Distribution of mean redaction coverage across positive cases, 1997 to 2024
 
 ```{r}
 #| file: R/2026_jids/figure_07.R
@@ -67,7 +67,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 8
+### Figure 8. Composition of detected redactions by type, 1997 to 2024
 
 ```{r}
 #| file: R/2026_jids/figure_08.R
@@ -75,7 +75,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 9
+### Figure 9. Variation in mean redaction coverage by year, positive cases only, 1997 to 2024
 
 ```{r}
 #| file: R/2026_jids/figure_09.R
@@ -83,7 +83,7 @@ format:
 #| fig-height: 4.5
 ```
 
-### Figure 10
+### Figure 10. Variation in mean redaction coverage by respondent country and case characteristics, positive cases only
 
 ```{r}
 #| file: R/2026_jids/figure_10.R
@@ -91,7 +91,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 11
+### Figure 11. Distribution of ISDS Award Proportion, 1987 – 2020
 
 ```{r}
 #| file: R/2026_jids/figure_11.R
@@ -99,7 +99,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 12
+### Figure 12. Ribbon Plot of Escalation and Award Process
 
 ```{r}
 #| file: R/2026_jids/figure_12.R
@@ -107,7 +107,7 @@ format:
 #| fig-height: 4.9
 ```
 
-### Figure 13
+### Figure 13. Average ISDS Award Proportions and Claims over time, 1993 to 2020
 
 ```{r}
 #| file: R/2026_jids/figure_13.R
@@ -115,7 +115,7 @@ format:
 #| fig-height: 4.5
 ```
 
-### Figure 14
+### Figure 14. Award proportions by country and case characteristics, 1987 – 2020
 
 ```{r}
 #| file: R/2026_jids/figure_14.R
