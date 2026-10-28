@@ -10,4 +10,8 @@ This site hosts data and analysis for **[paper title placeholder]**. It provides
 - **[Analysis](analysis.qmd)** — a short, static write-up of some patterns in the data.
 - **[About](about.qmd)** — the paper, authors, and how to cite this work.
 
-> This paragraph is a placeholder. Replace it with a short summary of the paper/project once it's ready.
+## 2026 JIDS article
+
+*From Breach to Award: Insights from New Data on the Investor-State Dispute Settlement Process*
+
+**Abstract.** Advances in data collection on international investment agreements (IIAs) and investor-state dispute settlement (ISDS) have shed light on core elements of the international investment regime, yet important aspects of the dispute process remain understudied. Existing analyses commonly focus on the determinants of filed cases and arbitral outcomes, but less is known about how disputes evolve from alleged treaty breach through arbitration and award. In this article, we introduce the Investor-State Arbitration Attributes and Cases (ISAAC) dataset and provide descriptive analyses of four understudied dimensions of the ISDS process: (1) the time lag between alleged IIA violations and the filing of claims; (2) the use of domestic remedies prior to ISDS escalation; (3) levels of case transparency; and (4) award proportions. Our data demonstrate the value of studying the dispute process, challenge several common assumptions about investor behaviour, and open new avenues for research on ISDS reform and legitimacy.
