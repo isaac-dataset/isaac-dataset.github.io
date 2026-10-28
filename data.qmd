@@ -6,13 +6,15 @@ title: "Data"
 
 The data and R scripts below reproduce every table, figure, and in-text statistic in the article. Variables are described in the [codebook](codebook.qmd).
 
+### 2026 JIDS data
+
 | Dataset | Unit | Rows | Download |
 |---|---|---|---|
 | `isaac_cases` | Arbitration | 1,229 | [CSV](data/2026_jids/isaac_cases.csv) · [Stata](data/2026_jids/isaac_cases.dta) · [R](data/2026_jids/isaac_cases.rds) · [Excel](data/2026_jids/isaac_cases.xlsx) |
 | `isaac_redactions` | Arbitration with public documents | 874 | [CSV](data/2026_jids/isaac_redactions.csv) · [Stata](data/2026_jids/isaac_redactions.dta) · [R](data/2026_jids/isaac_redactions.rds) · [Excel](data/2026_jids/isaac_redactions.xlsx) |
 | `unctad_awards_2023` | UNCTAD case, 31 December 2023 release | 1,332 | [CSV](data/2026_jids/unctad_awards_2023.csv) · [Stata](data/2026_jids/unctad_awards_2023.dta) · [R](data/2026_jids/unctad_awards_2023.rds) · [Excel](data/2026_jids/unctad_awards_2023.xlsx) |
 
-### Scripts
+### 2026 JIDS scripts
 
 Each script sources [`setup.R`](R/2026_jids/setup.R) and runs from the root of the [repository](https://github.com/isaac-dataset/isaac-dataset.github.io/archive/refs/heads/main.zip).
 
