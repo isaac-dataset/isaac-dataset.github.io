@@ -11,6 +11,25 @@ format:
     df-print: kable
 ---
 
+```{r}
+#| include: false
+knitr::opts_chunk$set(dev.args = list(bg = "#fdf6e3"))
+
+source <- function(file, ...) {
+  base::source(file, ...)
+  if (basename(file) == "setup.R") {
+    solarized <- function(...) {
+      ggthemes::theme_solarized(base_size = 11, base_family = plot_font) +
+        ggplot2::theme(panel.grid.minor = ggplot2::element_blank(),
+                       legend.position  = "bottom",
+                       plot.margin      = ggplot2::margin(5, 5, 5, 5))
+    }
+    theme_bw      <<- solarized
+    theme_minimal <<- solarized
+  }
+}
+```
+
 ## 2026 JIDS article
 
 ### Table 1. ISAAC data summary and coverage
