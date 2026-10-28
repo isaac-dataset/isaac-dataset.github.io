@@ -4,20 +4,20 @@ title: "About"
 
 ## The paper
 
-*Placeholder — add the paper title, abstract, and a link (DOI or preprint) once available.*
+*From Breach to Award: Insights from New Data on the Investor-State Dispute Settlement Process*
 
 ## Authors
 
-- Author One
-- Author Two
-- Author Three
+- Andrew Lugg, University of Nevada, Las Vegas
+- Kevin Navarrete-Parra, University of Nevada, Las Vegas
+- Jared Oestman, University of Nevada, Las Vegas
 
 ## Citation
 
-Placeholder citation. 
+To cite the replication data, archived on [Harvard Dataverse](https://doi.org/10.7910/DVN/EGOICA):
 
 ```
-Author One and Author Two. YEAR. "Paper Title." Journal Name.
+Lugg, Andrew; Navarrete-Parra, Kevin; Oestman, Jared, 2026, "Replication Data for: From Breach to Award: Insights from New Data on the Investor-State Dispute Settlement Process", https://doi.org/10.7910/DVN/EGOICA, Harvard Dataverse, V1
 ```
 
 ## License
