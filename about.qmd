@@ -14,6 +14,10 @@ title: "About"
 
 ## Citation
 
+To cite the paper:
+
+> Lugg, Andrew, Kevin Navarrete-Parra, and Jared Oestman. 2026. "From Breach to Award: Insights from New Data on the Investor-State Dispute Settlement Process." Working paper.
+
 To cite the replication data, archived on [Harvard Dataverse](https://doi.org/10.7910/DVN/EGOICA):
 
 > Lugg, Andrew; Navarrete-Parra, Kevin; Oestman, Jared, 2026, "Replication Data for: From Breach to Award: Insights from New Data on the Investor-State Dispute Settlement Process", <https://doi.org/10.7910/DVN/EGOICA>, Harvard Dataverse, V1

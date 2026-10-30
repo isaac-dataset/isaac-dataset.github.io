@@ -2,7 +2,7 @@
 title: "Codebook"
 ---
 
-## 2026 JIDS article
+## Working Paper
 
 ### `isaac_cases`
 

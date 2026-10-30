@@ -30,7 +30,7 @@ source <- function(file, ...) {
 }
 ```
 
-## 2026 JIDS article
+## Working Paper
 
 ### Table 1. ISAAC data summary and coverage
 

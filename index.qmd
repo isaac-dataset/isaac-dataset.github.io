@@ -10,7 +10,7 @@ This site hosts the ISAAC data along with some analysis. It provides:
 - **[Analysis](analysis.qmd)** — a short, static write-up of some patterns in the data.
 - **[About](about.qmd)** — the paper, authors, and how to cite this work.
 
-## 2026 JIDS article
+## Working Paper
 
 *From Breach to Award: Insights from New Data on the Investor-State Dispute Settlement Process*
 
